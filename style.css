@@ -5,7 +5,7 @@ body{
 }
 .container{
     width: 500px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
 }
 img{
@@ -27,12 +27,12 @@ button{
     cursor: pointer;
     font-size: 22px;
     border: 1px solid purple;
-    background-color: pink;
+    background-color:  #ff1994;
     color: white;
     transition: .3s;
 }
 button:hover{
-    background-color: rgb(232, 167, 178);
+    background-color: #cd1075;
 }
 #no{
     z-index: 4;
@@ -46,7 +46,7 @@ button:hover{
         flex-direction: column;
     }
     button{
-        width: 70%;
+        width: 200px;
     }
     p{
         font-size: 34px;
